@@ -77,4 +77,5 @@
   border: 1px solid var(--primary-color);
   background-color: #fff;
   color: var(--primary-color);
+  font-weight: bold;
 }

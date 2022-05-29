@@ -38,7 +38,7 @@ export class OrderDetailsService {
       id: 4,
       foodName: 'Veg Masala Roll In Naan',
       foodDetails:
-        "A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
+        'A homely mix of mashed potato and veggies, seasoned with Indian spices.',
       foodPrice: 140,
       foodImg:
         'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7',
@@ -47,7 +47,7 @@ export class OrderDetailsService {
       id: 5,
       foodName: 'Indulgence Brownie',
       foodDetails:
-        '(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.',
+        '(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped.',
       foodPrice: 105,
       foodImg:
         'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv',
