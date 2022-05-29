@@ -7,7 +7,7 @@
 }
 .content {
   top: 25%;
-  left: 2%;
+  left: 5%;
   position: absolute;
 }
 .content h1 {
@@ -59,6 +59,22 @@
   object-fit: cover;
 }
 .foodbox h1 {
+  font-weight: bold;
   font-size: 18px;
   margin-top: 20px;
+}
+.viewmorebtn {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  transition: 0.2s ease-in;
+}
+.viewmorebtn:hover {
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
 }
