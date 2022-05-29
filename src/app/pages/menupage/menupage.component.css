@@ -18,3 +18,8 @@ form {
   background-color: #fff;
   color: #000;
 }
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
