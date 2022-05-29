@@ -1,1 +1,33 @@
-<p>menupage works!</p>
+<div class="container my-5">
+  <div class="row">
+    <div class="col-lg-6 menudata" *ngIf="menuData">
+      <a routerLink="../../menu" class="btn btn-sm- btn-dark mb-3">Back</a>
+      <img src="{{ menuData.foodImg }}" alt="{{ menuData.foodName }}" />
+      <h1>{{ menuData.foodName }}</h1>
+      <p>{{ menuData.foodDetails }}</p>
+      <p>{{ menuData.foodPrice | currency: "SGD" }}</p>
+    </div>
+    <div class="col-lg-6">
+      <h1>Enter Your Details</h1>
+      <form action="">
+        <div class="d-flex flex-column justify-content-between forminput">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Your Full Name"
+          />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Your Mobile"
+          />
+          <textarea
+            class="form-control"
+            placeholder="Enter Your Address"
+          ></textarea>
+          <button class="btn btn-md btn-dark mt-3">Place Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

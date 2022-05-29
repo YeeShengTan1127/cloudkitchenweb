@@ -1,0 +1,20 @@
+.menudata img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+form {
+  margin-top: 10%;
+  width: 50%;
+}
+.forminput {
+  height: 225px;
+}
+.btn {
+  transition: 0.2s ease-in;
+}
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
